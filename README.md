@@ -9,11 +9,11 @@ This project helps innovators, regulatory professionals, and researchers quickly
 Medical device innovators frequently face uncertainty when determining the most appropriate FDA regulatory pathway.
 
 Traditional regulatory assessment requires extensive manual review of:
-	•	FDA classification databases
-	•	510(k) clearances
-	•	PMA approvals
-	•	De Novo classifications
-	•	Similar predicate devices
+- FDA classification databases
+- 510(k) clearances
+- PMA approvals
+- De Novo classifications
+- Similar predicate devices
 
 This project builds a data-driven regulatory intelligence dashboard that automates part of that early assessment process.
 
