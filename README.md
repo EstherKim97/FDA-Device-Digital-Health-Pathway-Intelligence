@@ -26,6 +26,31 @@ The system integrates FDA data retrieval with structured scoring logic to genera
 
 The tool is designed for early-stage regulatory exploration, not as a replacement for formal regulatory strategy.
 
+## System Architecture
+```
+User Input
+   │
+   │ (keyword + intended use + regulatory framing)
+   ▼
+Streamlit Interface (app.py)
+   │
+   ├── FDA Data Retrieval
+   │       └── fda_client.py
+   │
+   ├── Similarity + Predicate Ranking
+   │       └── text similarity functions
+   │
+   ├── Regulatory Scoring Engine
+   │       └── scoring.py
+   │
+   └── Results Dashboard
+           ├── Pathway Scores
+           ├── Predicate Ranking
+           ├── Broad Precedents
+           ├── Evidence Gaps
+           ├── FDA Matches
+           └── Explainability
+```
 ## Key Features
 
 ### 1. Regulatory Pathway Prediction
@@ -146,6 +171,7 @@ Data sources	FDA open datasets
 
 ## Project Structure
 
+```
 project/
 │
 ├── app.py
@@ -153,6 +179,7 @@ project/
 ├── scoring.py
 ├── requirements.txt
 └── README.md
+```
 
 app.py    Main Streamlit application.
 
