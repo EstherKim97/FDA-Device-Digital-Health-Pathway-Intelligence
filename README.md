@@ -63,48 +63,48 @@ De Novo	For novel moderate-risk devices without a predicate
 PMA	Required for high-risk Class III devices requiring clinical evidence
 
 The system generates pathway scores using product attributes such as:
-	•	Intended use
-	•	Risk level
-	•	Predicate availability
-	•	Novelty
-	•	FDA precedent signals
+- Intended use
+- Risk level
+- Predicate availability
+- Novelty
+- FDA precedent signals
 
 ### 2. Predicate Device Ranking
 
 The system searches FDA 510(k) data and ranks potential predicate devices based on text similarity between:
-	•	user-provided intended use
-	•	device name
-	•	product code descriptions
+- user-provided intended use
+- device name
+- product code descriptions
 
 This helps identify potential substantial equivalence candidates.
 
 ### 3. FDA Precedent Landscape
 
 The dashboard summarizes regulatory signals across FDA databases:
-	•	classification matches
-	•	510(k) clearances
-	•	De Novo signals
-	•	PMA approvals
+- classification matches
+- 510(k) clearances
+- De Novo signals
+- PMA approvals
 
 This provides users with a quick understanding of regulatory precedent density.
 
 ### 4. Evidence Gap Identification
 
 The system identifies areas where regulatory evidence is weak or unclear, such as:
-	•	limited predicate similarity
-	•	low classification matches
-	•	high novelty
-	•	unclear regulatory precedent
+- limited predicate similarity
+- low classification matches
+- high novelty
+- unclear regulatory precedent
 
 These signals inform the recommended next regulatory step.
 
 ### 5. Regulatory Next-Step Recommendations
 
 Based on the scoring model, the app recommends actions such as:
-	•	Pre-Submission (Pre-Sub) meeting with FDA
-	•	pursuing 510(k) predicate identification
-	•	considering a De Novo classification
-	•	preparing for PMA-level evidence
+- Pre-Submission (Pre-Sub) meeting with FDA
+- pursuing 510(k) predicate identification
+- considering a De Novo classification
+- preparing for PMA-level evidence
 
 
 ## How the System Works
@@ -114,20 +114,20 @@ The application combines three components:
 ### 1. FDA Data Retrieval
 
 Data is pulled from public FDA datasets including:
-	•	Device Classification Database
-	•	510(k) Clearance Database
-	•	PMA Approval Database
+- Device Classification Database
+- 510(k) Clearance Database
+- PMA Approval Database
 
 These datasets provide signals about historical regulatory decisions.
 
 ### 2. Scoring Model
 
 A structured scoring framework evaluates pathway likelihood based on:
-	•	product novelty
-	•	risk classification
-	•	predicate availability
-	•	FDA precedent density
-	•	similarity to previously cleared devices
+- product novelty
+- risk classification
+- predicate availability
+- FDA precedent density
+- similarity to previously cleared devices
 
 Scores are generated for each pathway:
 
@@ -140,9 +140,9 @@ The pathway with the highest score is presented as the most likely regulatory ro
 ### 3. Explainability Layer
 
 To improve transparency, the system explains:
-	•	why the top pathway ranked highest
-	•	what evidence supports the recommendation
-	•	what uncertainties remain
+- why the top pathway ranked highest
+- what evidence supports the recommendation
+- what uncertainties remain
 
 This avoids “black box” regulatory predictions.
 
@@ -203,22 +203,22 @@ This tool may be useful for:
 This tool provides exploratory regulatory intelligence, not regulatory advice.
 
 Important limitations include:
-	•	simplified scoring logic
-	•	limited FDA dataset coverage
-	•	text similarity instead of full semantic search
-	•	no clinical evidence assessment
+- simplified scoring logic
+- limited FDA dataset coverage
+- text similarity instead of full semantic search
+- no clinical evidence assessment
 
 Final regulatory strategy decisions should always involve experienced regulatory professionals and FDA interaction.
 
 ## Future Improvements
 
 Planned improvements include:
-	•	improved semantic similarity models
-	•	better FDA dataset filtering
-	•	confidence scoring for pathway recommendations
-	•	stronger precedent retrieval
-	•	expanded explainability
-	•	automated regulatory report generation
+- improved semantic similarity models
+- better FDA dataset filtering
+- confidence scoring for pathway recommendations
+- stronger precedent retrieval
+- expanded explainability
+- automated regulatory report generation
 
 ## 👩🏻‍💻 Author
 
