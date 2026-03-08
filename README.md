@@ -1,12 +1,5 @@
 # FDA-Device-Digital-Health-Pathway-Intelligence
 
-Below is a professional GitHub README suitable for your project. It is written so that recruiters, researchers, and regulatory professionals immediately understand the purpose, methodology, and value of the tool.
-
-You can copy-paste this directly into README.md in your repository.
-
-
-## FDA Device / Digital Health Pathway Intelligence
-
 A decision-support tool that analyzes potential FDA regulatory pathways for medical devices and digital health products using publicly available FDA data.
 
 This project helps innovators, regulatory professionals, and researchers quickly evaluate whether a product is more likely to follow a 510(k), De Novo, or PMA pathway, while surfacing relevant precedents and regulatory signals.
