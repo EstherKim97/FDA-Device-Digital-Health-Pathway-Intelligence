@@ -4,15 +4,12 @@ Below is a professional GitHub README suitable for your project. It is written s
 
 You can copy-paste this directly into README.md in your repository.
 
-⸻
 
 ## FDA Device / Digital Health Pathway Intelligence
 
 A decision-support tool that analyzes potential FDA regulatory pathways for medical devices and digital health products using publicly available FDA data.
 
 This project helps innovators, regulatory professionals, and researchers quickly evaluate whether a product is more likely to follow a 510(k), De Novo, or PMA pathway, while surfacing relevant precedents and regulatory signals.
-
-⸻
 
 ## Project Overview
 
@@ -36,7 +33,6 @@ The system integrates FDA data retrieval with structured scoring logic to genera
 
 The tool is designed for early-stage regulatory exploration, not as a replacement for formal regulatory strategy.
 
-⸻
 ## Key Features
 
 ### 1. Regulatory Pathway Prediction
@@ -55,7 +51,6 @@ The system generates pathway scores using product attributes such as:
 	•	Novelty
 	•	FDA precedent signals
 
-⸻
 ### 2. Predicate Device Ranking
 
 The system searches FDA 510(k) data and ranks potential predicate devices based on text similarity between:
@@ -65,7 +60,6 @@ The system searches FDA 510(k) data and ranks potential predicate devices based 
 
 This helps identify potential substantial equivalence candidates.
 
-⸻
 ### 3. FDA Precedent Landscape
 
 The dashboard summarizes regulatory signals across FDA databases:
@@ -76,7 +70,6 @@ The dashboard summarizes regulatory signals across FDA databases:
 
 This provides users with a quick understanding of regulatory precedent density.
 
-⸻
 ### 4. Evidence Gap Identification
 
 The system identifies areas where regulatory evidence is weak or unclear, such as:
@@ -87,7 +80,6 @@ The system identifies areas where regulatory evidence is weak or unclear, such a
 
 These signals inform the recommended next regulatory step.
 
-⸻
 ### 5. Regulatory Next-Step Recommendations
 
 Based on the scoring model, the app recommends actions such as:
@@ -96,7 +88,6 @@ Based on the scoring model, the app recommends actions such as:
 	•	considering a De Novo classification
 	•	preparing for PMA-level evidence
 
-⸻
 
 ## How the System Works
 
@@ -110,8 +101,6 @@ Data is pulled from public FDA datasets including:
 	•	PMA Approval Database
 
 These datasets provide signals about historical regulatory decisions.
-
-⸻
 
 ### 2. Scoring Model
 
@@ -130,8 +119,6 @@ PMA
 
 The pathway with the highest score is presented as the most likely regulatory route.
 
-⸻
-
 ### 3. Explainability Layer
 
 To improve transparency, the system explains:
@@ -140,8 +127,6 @@ To improve transparency, the system explains:
 	•	what uncertainties remain
 
 This avoids “black box” regulatory predictions.
-
-⸻
 
 ## Example Use Case
 
@@ -156,8 +141,6 @@ The system will:
 	4.	score pathway likelihood
 	5.	recommend the most plausible regulatory pathway
 
-⸻
-
 ## Technology Stack
 
 Component	Technology
@@ -168,9 +151,7 @@ Text similarity	Custom token similarity
 Data sources	FDA open datasets
 
 
-⸻
-
-##Project Structure
+## Project Structure
 
 project/
 │
@@ -186,7 +167,6 @@ fda_client.py     Handles FDA dataset retrieval and preprocessing.
 
 scoring.py      Contains pathway scoring logic and recommendation algorithms.
 
-⸻
 
 ## Intended Users
 
@@ -197,7 +177,6 @@ This tool may be useful for:
 	•	healthcare AI researchers
 	•	product teams exploring regulatory strategy
 
-⸻
 
 ## Limitations
 
@@ -211,8 +190,6 @@ Important limitations include:
 
 Final regulatory strategy decisions should always involve experienced regulatory professionals and FDA interaction.
 
-⸻
-
 ## Future Improvements
 
 Planned improvements include:
@@ -222,8 +199,6 @@ Planned improvements include:
 	•	stronger precedent retrieval
 	•	expanded explainability
 	•	automated regulatory report generation
-
-⸻
 
 ## 👩🏻‍💻 Author
 
