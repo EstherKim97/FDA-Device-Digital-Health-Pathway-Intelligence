@@ -18,11 +18,11 @@ Traditional regulatory assessment requires extensive manual review of:
 This project builds a data-driven regulatory intelligence dashboard that automates part of that early assessment process.
 
 The system integrates FDA data retrieval with structured scoring logic to generate:
-	•	Likely regulatory pathway
-	•	Precedent analysis
-	•	Predicate candidates
-	•	Evidence gaps
-	•	Regulatory next-step recommendations
+- Likely regulatory pathway
+- Precedent analysis
+- Predicate candidates
+- Evidence gaps
+- Regulatory next-step recommendations
 
 The tool is designed for early-stage regulatory exploration, not as a replacement for formal regulatory strategy.
 
