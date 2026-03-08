@@ -10,6 +10,7 @@ This project helps innovators, regulatory professionals, and researchers quickly
 
 Medical device innovators frequently face uncertainty when determining the most appropriate FDA regulatory pathway.
 
+<img width="1661" height="812" alt="image" src="https://github.com/user-attachments/assets/b1da89c0-2061-4f5e-8e37-03421dd0170b" />
 [Watch Demo Video](DemoVideo.mov)
 
 Traditional regulatory assessment requires extensive manual review of:
